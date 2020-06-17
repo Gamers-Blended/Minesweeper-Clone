@@ -27,7 +27,7 @@ var rows;
 
 // Settings
 var w = 20; // change the pixel size of each cell (20x20px) recommended to be in multiples of 20
-var totalMines = 20; // change the number to set the number of mines
+var totalMines = 30; // change the number to set the number of mines
 
 
 // Creates the game board
@@ -101,6 +101,14 @@ function mousePressed() {
       }
   }
 }
+
+
+// Function for cheat code (enter)
+document.addEventListener("keypress", function(event) {
+    if (event.keyCode == 13) {
+        gameOver();
+    }
+})
 
 
 // To draw the background

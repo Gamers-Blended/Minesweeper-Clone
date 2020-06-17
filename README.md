@@ -20,11 +20,13 @@ The game ends once the players uncovers a tile with a mine on it. <br>
 Left-click on a title to uncover its contents!
 
 ### Known Bugs
+Sometimes, the first tile uncovered by the player could have a mine in it. <br>
 No code to mark a tile with a flag. <br>
+Cheatcode can't be activated at the very start of the game. At least 1 tile must be uncovered so that cheatcode can be used. <br>
 No code to signify that the player has won.
 
 ## Instructions to build this game (no sound)
-1. Clone or download this respository
+1. Clone or download this repository
 2. (Optional) Set the number of mines in sketch.js, line 30 (totalMines)
 3. Save the file
-4. Open the index.html file
+4. Open the 'index.html' file

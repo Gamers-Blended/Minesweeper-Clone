@@ -10,19 +10,31 @@ References:
 
 ## Gameplay
 ### Board
+![Board](https://github.com/Gamers-Blended/Minesweeper-Clone/blob/master/ReadMeFiles/Board.PNG)
 
 The objective is to uncover all tiles that don't cover a mine. <br>
+![Demo](https://github.com/Gamers-Blended/Minesweeper-Clone/blob/master/ReadMeFiles/Demo.gif)
+
+<br>
+
 The number indicated on an empty tile tells the number of mines adjacent to it! <br>
+![RevealedBoard](https://github.com/Gamers-Blended/Minesweeper-Clone/blob/master/ReadMeFiles/RevealedBoard.PNG)
+
+<br>
 
 The game ends once the players uncovers a tile with a mine on it. <br>
+Click on the 'Reset' button to start a new round. <br>
+![Reset](https://github.com/Gamers-Blended/Minesweeper-Clone/blob/master/ReadMeFiles/Reset.gif)
 
 ### Controls
-Left-click on a title to uncover its contents!
+Left-click on a title to uncover its contents! <br>
+Press Enter to reveal all mines! <br>
+![CheatCode](https://github.com/Gamers-Blended/Minesweeper-Clone/blob/master/ReadMeFiles/CheatCode.gif)
 
 ### Known Bugs
 Sometimes, the first tile uncovered by the player could have a mine in it. <br>
 No code to mark a tile with a flag. <br>
-Cheatcode can't be activated at the very start of the game. At least 1 tile must be uncovered so that cheatcode can be used. <br>
+Cheatcode can't be activated right at the start of the game (including after a reset). Players need to click anywhere on the screen before the cheatcode can be used. <br>
 No code to signify that the player has won.
 
 ## Instructions to build this game (no sound)
